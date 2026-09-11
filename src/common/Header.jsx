@@ -16,6 +16,10 @@ export default function Header() {
       name: "Contact",
       path: "/contact",
     },
+      {
+      name: "Services",
+      path: "/service",
+    },
   ];
 
   return (

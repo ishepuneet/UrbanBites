@@ -9,6 +9,7 @@ import React from "react";
 
 import Menu from "./components/Menu.jsx";
 import Contact from "./components/Contact.jsx";
+import Services from "./components/Services.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/service" element={<Services />} />
       </Routes>
 
       <Footer />

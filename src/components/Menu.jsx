@@ -248,7 +248,7 @@ export default function Menu() {
         min-h-screen
         overflow-hidden
         bg-[#01544A]
-        py-20
+        py-25
         text-white
       "
     >
